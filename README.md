@@ -36,6 +36,7 @@ topics/
 ## 🎯 Learning Path
 
 ### 1. **Arrays & Strings** (Start here!)
+
 - [x] Two Sum - `topics/arrays/two-sum/`
 - [x] Kadane's Algorithm (Maximum Subarray) - `topics/arrays/kadanes-algorithm/`
 - [ ] Sliding Window Maximum
@@ -43,35 +44,41 @@ topics/
 - [ ] Container With Most Water
 
 ### 2. **Linked Lists**
+
 - [ ] Reverse Linked List
 - [ ] Detect Cycle
 - [ ] Merge Two Sorted Lists
 - [ ] Remove Nth Node From End
 
 ### 3. **Stacks & Queues**
+
 - [ ] Valid Parentheses
 - [ ] Min Stack
 - [ ] Implement Queue using Stacks
 
 ### 4. **Trees**
+
 - [ ] Binary Tree Traversal (Inorder, Preorder, Postorder)
 - [ ] Maximum Depth of Binary Tree
 - [ ] Lowest Common Ancestor
 - [ ] Validate BST
 
 ### 5. **Graphs**
+
 - [ ] DFS & BFS
 - [ ] Number of Islands
 - [ ] Course Schedule
 - [ ] Dijkstra's Algorithm
 
 ### 6. **Dynamic Programming**
+
 - [ ] Fibonacci Numbers
 - [ ] Climbing Stairs
 - [ ] Longest Common Subsequence
 - [ ] Knapsack Problem
 
 ### 7. **Sorting & Searching**
+
 - [ ] Binary Search
 - [ ] Quick Sort
 - [ ] Merge Sort
@@ -82,16 +89,19 @@ topics/
 ### Prerequisites
 
 **For TypeScript/JavaScript:**
+
 ```bash
 npm install
 ```
 
 **For Rust:**
+
 - Install Rust: https://rustup.rs/
 
 ### Running Examples
 
 #### TypeScript/JavaScript
+
 ```bash
 # Run any TypeScript solution
 npm run dev topics/arrays/kadanes-algorithm/solution.ts
@@ -101,6 +111,7 @@ npx ts-node topics/arrays/two-sum/solution.ts
 ```
 
 #### Rust
+
 ```bash
 # Run any Rust solution by package name
 cargo run -p kadanes-algorithm
@@ -116,6 +127,7 @@ cargo test --workspace
 ### Testing Your Understanding
 
 Each problem includes:
+
 - 📖 **README.md** - Problem statement, examples, complexity analysis
 - 💻 **solution.ts** - TypeScript implementation with examples
 - 🦀 **rust/src/main.rs** - Rust implementation with examples
@@ -124,6 +136,7 @@ Each problem includes:
 ## 📖 How to Use This Repository
 
 ### For Learning
+
 1. **Read the problem** in the topic's README
 2. **Try to solve it yourself** first
 3. **Compare** your solution with the provided implementations
@@ -131,12 +144,14 @@ Each problem includes:
 5. **Modify and experiment** to deepen understanding
 
 ### For Practice
+
 1. Pick a topic from the learning path
 2. Implement in your preferred language first
 3. Then implement in the other language
 4. Compare both approaches and learn language-specific patterns
 
 ### For Interview Prep
+
 1. Focus on common patterns (sliding window, two pointers, etc.)
 2. Practice explaining complexity analysis
 3. Implement both brute force and optimized solutions
@@ -153,17 +168,20 @@ Each problem includes:
 ## 🌟 Why Both Languages?
 
 **TypeScript/JavaScript:**
+
 - High-level, expressive syntax
 - Great for interviews and web development
 - Quick prototyping and iteration
 
 **Rust:**
+
 - Systems programming mindset
 - Memory safety and performance
 - Teaches low-level concepts
 - Growing in popularity for backend and systems
 
 Learning both gives you:
+
 - Broader perspective on problem-solving
 - Better understanding of time/space tradeoffs
 - Appreciation for different programming paradigms

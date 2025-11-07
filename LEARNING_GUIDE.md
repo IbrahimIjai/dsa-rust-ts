@@ -7,9 +7,11 @@ Welcome to your DSA learning journey! This guide will help you make the most of 
 ## 📅 Suggested Learning Schedule
 
 ### Week 1-2: Arrays & Strings
+
 Master the fundamentals of array manipulation and string operations.
 
 **Problems to Complete:**
+
 1. ✅ Two Sum (Easy)
 2. ✅ Kadane's Algorithm - Maximum Subarray (Medium)
 3. Best Time to Buy and Sell Stock (Easy)
@@ -18,15 +20,18 @@ Master the fundamentals of array manipulation and string operations.
 6. Sliding Window Maximum (Hard)
 
 **Key Concepts:**
+
 - Two pointer technique
 - Sliding window
 - Prefix/suffix arrays
 - Hash maps for lookups
 
 ### Week 3-4: Linked Lists
+
 Understand pointer manipulation and linked data structures.
 
 **Problems to Complete:**
+
 1. Reverse Linked List (Easy)
 2. Detect Cycle in Linked List (Easy)
 3. Merge Two Sorted Lists (Easy)
@@ -35,15 +40,18 @@ Understand pointer manipulation and linked data structures.
 6. Copy List with Random Pointer (Medium)
 
 **Key Concepts:**
+
 - Fast & slow pointers
 - Dummy nodes
 - Reversing pointers
 - Recursion vs iteration
 
 ### Week 5-6: Trees & Binary Search Trees
+
 Learn tree traversal and binary search tree operations.
 
 **Problems to Complete:**
+
 1. Binary Tree Inorder Traversal (Easy)
 2. Maximum Depth of Binary Tree (Easy)
 3. Validate BST (Medium)
@@ -51,15 +59,18 @@ Learn tree traversal and binary search tree operations.
 5. Serialize and Deserialize Binary Tree (Hard)
 
 **Key Concepts:**
+
 - DFS (Inorder, Preorder, Postorder)
 - BFS (Level order)
 - Recursion in trees
 - BST properties
 
 ### Week 7-8: Graphs
+
 Master graph traversal and pathfinding algorithms.
 
 **Problems to Complete:**
+
 1. Number of Islands (Medium)
 2. Course Schedule (Medium)
 3. Clone Graph (Medium)
@@ -67,15 +78,18 @@ Master graph traversal and pathfinding algorithms.
 5. Word Ladder (Hard)
 
 **Key Concepts:**
+
 - DFS vs BFS
 - Adjacency list/matrix
 - Visited sets
 - Topological sort
 
 ### Week 9-10: Dynamic Programming
+
 Develop problem-solving patterns for optimization problems.
 
 **Problems to Complete:**
+
 1. Climbing Stairs (Easy)
 2. House Robber (Medium)
 3. Longest Common Subsequence (Medium)
@@ -84,21 +98,25 @@ Develop problem-solving patterns for optimization problems.
 6. Edit Distance (Hard)
 
 **Key Concepts:**
+
 - Memoization
 - Tabulation
 - State transitions
 - Bottom-up vs top-down
 
 ### Week 11-12: Advanced Topics
+
 Tackle more complex algorithms and data structures.
 
 **Problems to Complete:**
+
 1. Merge K Sorted Lists (Hard)
 2. Median of Two Sorted Arrays (Hard)
 3. Trapping Rain Water (Hard)
 4. Regular Expression Matching (Hard)
 
 **Key Concepts:**
+
 - Heaps/Priority queues
 - Binary search variations
 - Advanced DP
@@ -109,21 +127,25 @@ Tackle more complex algorithms and data structures.
 ### Recommended Approach (1-2 hours/day)
 
 1. **Understand (15 min)**
+
    - Read problem statement carefully
    - Identify constraints
    - Work through examples manually
 
 2. **Plan (15 min)**
+
    - Think of brute force approach
    - Identify optimization opportunities
    - Sketch algorithm steps
 
 3. **Implement (30-45 min)**
+
    - Start with TypeScript (usually faster to prototype)
    - Test with examples
    - Fix bugs
 
 4. **Optimize & Learn (30-45 min)**
+
    - Analyze time/space complexity
    - Implement in Rust
    - Compare both implementations
@@ -139,6 +161,7 @@ Tackle more complex algorithms and data structures.
 ### 1. Don't Memorize - Understand Patterns
 
 Common patterns you'll see:
+
 - **Sliding Window**: For substring/subarray problems
 - **Two Pointers**: For sorted arrays or linked lists
 - **Fast & Slow Pointers**: For cycles and middle elements
@@ -152,12 +175,14 @@ Common patterns you'll see:
 ### 2. Use Both Languages Strategically
 
 **TypeScript first when:**
+
 - Prototyping new solutions
 - Need quick feedback
 - Working with complex data structures (objects, maps)
 - Interview practice
 
 **Rust first when:**
+
 - Learning low-level concepts
 - Understanding memory management
 - Performance matters
@@ -166,6 +191,7 @@ Common patterns you'll see:
 ### 3. Build Your Own Test Cases
 
 Don't just rely on provided examples:
+
 - Edge cases (empty, single element)
 - Large inputs
 - Negative numbers
@@ -175,6 +201,7 @@ Don't just rely on provided examples:
 ### 4. Time Yourself (Interview Prep)
 
 Simulate real conditions:
+
 - **Easy**: 15-20 minutes
 - **Medium**: 25-35 minutes
 - **Hard**: 40-50 minutes
@@ -182,6 +209,7 @@ Simulate real conditions:
 ### 5. Learn from Multiple Sources
 
 After solving, check:
+
 - LeetCode discussions
 - The reference library in `resources/`
 - Alternative solutions online
@@ -199,6 +227,7 @@ Create a file `MY_PROGRESS.md`:
 ## Week 1: Arrays & Strings
 
 ### Day 1 - Two Sum
+
 - ✅ Understood problem
 - ✅ Implemented TypeScript solution
 - ✅ Implemented Rust solution
@@ -207,12 +236,14 @@ Create a file `MY_PROGRESS.md`:
 - 🔄 Review needed: Edge cases handling
 
 ### Day 2 - Kadane's Algorithm
+
 ...
 ```
 
 ### Track Metrics
 
 Keep track of:
+
 - Problems solved per week
 - Average time per difficulty
 - Topics you find challenging
@@ -233,11 +264,13 @@ Make learning fun:
 If studying with others:
 
 1. **Code Review Sessions**
+
    - Share your solutions
    - Discuss different approaches
    - Learn from each other's mistakes
 
 2. **Pair Programming**
+
    - One person drives (codes)
    - Other navigates (thinks)
    - Switch every 15 minutes
@@ -250,22 +283,26 @@ If studying with others:
 ## 📚 Additional Resources
 
 ### Books
+
 - "Cracking the Coding Interview" by Gayle McDowell
 - "Elements of Programming Interviews" by Aziz, Lee, Prakash
 - "Introduction to Algorithms" (CLRS)
 
 ### Online Platforms
+
 - LeetCode (practice problems)
 - NeetCode (curated lists & explanations)
 - AlgoExpert (structured learning)
 - HackerRank (skills certification)
 
 ### Visualization Tools
+
 - VisuAlgo (algorithm animations)
 - CS50's Sandbox (interactive learning)
 - Python Tutor (step-by-step execution)
 
 ### YouTube Channels
+
 - NeetCode
 - Back To Back SWE
 - William Fiset
@@ -274,23 +311,27 @@ If studying with others:
 ## 🎯 Interview Preparation Timeline
 
 ### 3 Months Before
+
 - Complete arrays, strings, and linked lists
 - Master basic patterns
 - Solve 2-3 problems daily
 
 ### 2 Months Before
+
 - Complete trees and graphs
 - Start dynamic programming
 - Solve 3-4 problems daily
 - Begin mock interviews
 
 ### 1 Month Before
+
 - Review all topics
 - Focus on weak areas
 - Practice explaining solutions out loud
 - Do timed mock interviews
 
 ### 1 Week Before
+
 - Light review only
 - Solve easy problems for confidence
 - Review your notes

@@ -1,9 +1,8 @@
 /// Two Sum Problem
-/// 
+///
 /// Find two numbers in an array that add up to a target sum
 /// Time Complexity: O(n)
 /// Space Complexity: O(n)
-
 use std::collections::HashMap;
 
 fn two_sum(nums: &[i32], target: i32) -> Vec<usize> {
@@ -11,11 +10,11 @@ fn two_sum(nums: &[i32], target: i32) -> Vec<usize> {
 
     for (i, &num) in nums.iter().enumerate() {
         let complement = target - num;
-        
+
         if let Some(&index) = num_map.get(&complement) {
             return vec![index, i];
         }
-        
+
         num_map.insert(num, i);
     }
 
@@ -44,9 +43,12 @@ fn main() {
     println!("Array: {:?}, Target: {}", nums1, target1);
     let result1 = two_sum(&nums1, target1);
     println!("Result: {:?}", result1);
-    println!("Values: {} + {} = {}\n", 
-        nums1[result1[0]], nums1[result1[1]], 
-        nums1[result1[0]] + nums1[result1[1]]);
+    println!(
+        "Values: {} + {} = {}\n",
+        nums1[result1[0]],
+        nums1[result1[1]],
+        nums1[result1[0]] + nums1[result1[1]]
+    );
 
     // Example 2
     let nums2 = vec![3, 2, 4];
@@ -54,9 +56,12 @@ fn main() {
     println!("Array: {:?}, Target: {}", nums2, target2);
     let result2 = two_sum(&nums2, target2);
     println!("Result: {:?}", result2);
-    println!("Values: {} + {} = {}\n", 
-        nums2[result2[0]], nums2[result2[1]], 
-        nums2[result2[0]] + nums2[result2[1]]);
+    println!(
+        "Values: {} + {} = {}\n",
+        nums2[result2[0]],
+        nums2[result2[1]],
+        nums2[result2[0]] + nums2[result2[1]]
+    );
 
     // Example 3
     let nums3 = vec![3, 3];
@@ -70,9 +75,12 @@ fn main() {
     println!("Array: {:?}, Target: {}", nums4, target4);
     let result4 = two_sum(&nums4, target4);
     println!("Result: {:?}", result4);
-    println!("Values: {} + {} = {}\n", 
-        nums4[result4[0]], nums4[result4[1]], 
-        nums4[result4[0]] + nums4[result4[1]]);
+    println!(
+        "Values: {} + {} = {}\n",
+        nums4[result4[0]],
+        nums4[result4[1]],
+        nums4[result4[0]] + nums4[result4[1]]
+    );
 
     // Performance comparison
     println!("=== Performance Comparison ===");
@@ -80,7 +88,7 @@ fn main() {
     let large_target = 19997;
 
     use std::time::Instant;
-    
+
     let start = Instant::now();
     two_sum(&large_array, large_target);
     println!("Hash Map Approach: {:?}", start.elapsed());

@@ -15,6 +15,7 @@ Advanced (Weeks 9-12)      ░░░░░░░░░░░░░░░░░�
 ## 🎯 Topic Checklist
 
 ### 1️⃣ Arrays & Strings (Foundation)
+
 ```
 Easy Problems:
 ├─ [x] Two Sum
@@ -44,6 +45,7 @@ Patterns to Master:
 ```
 
 ### 2️⃣ Linked Lists (Foundation)
+
 ```
 Easy Problems:
 ├─ [ ] Reverse Linked List
@@ -69,6 +71,7 @@ Patterns to Master:
 ```
 
 ### 3️⃣ Stacks & Queues (Foundation)
+
 ```
 Easy Problems:
 ├─ [ ] Valid Parentheses
@@ -91,6 +94,7 @@ Patterns to Master:
 ```
 
 ### 4️⃣ Trees & BST (Intermediate)
+
 ```
 Easy Problems:
 ├─ [ ] Maximum Depth of Binary Tree
@@ -118,6 +122,7 @@ Patterns to Master:
 ```
 
 ### 5️⃣ Heaps & Priority Queues (Intermediate)
+
 ```
 Easy Problems:
 ├─ [ ] Kth Largest Element in Array
@@ -140,6 +145,7 @@ Patterns to Master:
 ```
 
 ### 6️⃣ Graphs (Intermediate)
+
 ```
 Easy Problems:
 ├─ [ ] Number of Islands
@@ -167,6 +173,7 @@ Patterns to Master:
 ```
 
 ### 7️⃣ Dynamic Programming (Advanced)
+
 ```
 Easy Problems:
 ├─ [ ] Climbing Stairs
@@ -195,6 +202,7 @@ Patterns to Master:
 ```
 
 ### 8️⃣ Backtracking (Advanced)
+
 ```
 Medium Problems:
 ├─ [ ] Subsets
@@ -215,6 +223,7 @@ Patterns to Master:
 ```
 
 ### 9️⃣ Tries (Advanced)
+
 ```
 Medium Problems:
 ├─ [ ] Implement Trie
@@ -227,6 +236,7 @@ Patterns to Master:
 ```
 
 ### 🔟 Advanced Topics
+
 ```
 Bit Manipulation:
 ├─ [ ] Number of 1 Bits
@@ -256,21 +266,27 @@ Greedy Algorithms:
 ## 📈 Skill Progression
 
 ### Beginner (Month 1)
+
 **Focus:** Foundation & Pattern Recognition
+
 - Arrays, Strings, Linked Lists
 - Basic recursion
 - Time/Space complexity basics
 - **Goal:** Solve 30-40 Easy problems
 
 ### Intermediate (Months 2-3)
+
 **Focus:** Data Structures & Algorithms
+
 - Trees, Graphs, Heaps
 - Advanced recursion
 - Dynamic Programming basics
 - **Goal:** Solve 40-50 Medium problems
 
 ### Advanced (Month 4+)
+
 **Focus:** Complex Problems & Optimization
+
 - Advanced DP
 - Backtracking
 - Complex graph algorithms
@@ -303,20 +319,20 @@ Core patterns you'll encounter repeatedly:
 
 ## 📊 Weekly Targets
 
-| Week | Focus Area | Easy | Medium | Hard | Total |
-|------|-----------|------|--------|------|-------|
-| 1    | Arrays    | 3    | 2      | 0    | 5     |
-| 2    | Strings   | 3    | 2      | 1    | 6     |
-| 3    | Linked Lists | 3 | 2      | 0    | 5     |
-| 4    | Stacks/Queues | 2 | 2    | 1    | 5     |
-| 5    | Trees     | 3    | 3      | 0    | 6     |
-| 6    | Trees (cont) | 2 | 3      | 1    | 6     |
-| 7    | Graphs    | 2    | 3      | 0    | 5     |
-| 8    | Graphs (cont) | 1 | 3     | 1    | 5     |
-| 9    | DP Basics | 3    | 3      | 0    | 6     |
-| 10   | DP Advanced | 1  | 3      | 1    | 5     |
-| 11   | Backtracking | 1 | 3     | 1    | 5     |
-| 12   | Review    | 2    | 2      | 2    | 6     |
+| Week | Focus Area    | Easy | Medium | Hard | Total |
+| ---- | ------------- | ---- | ------ | ---- | ----- |
+| 1    | Arrays        | 3    | 2      | 0    | 5     |
+| 2    | Strings       | 3    | 2      | 1    | 6     |
+| 3    | Linked Lists  | 3    | 2      | 0    | 5     |
+| 4    | Stacks/Queues | 2    | 2      | 1    | 5     |
+| 5    | Trees         | 3    | 3      | 0    | 6     |
+| 6    | Trees (cont)  | 2    | 3      | 1    | 6     |
+| 7    | Graphs        | 2    | 3      | 0    | 5     |
+| 8    | Graphs (cont) | 1    | 3      | 1    | 5     |
+| 9    | DP Basics     | 3    | 3      | 0    | 6     |
+| 10   | DP Advanced   | 1    | 3      | 1    | 5     |
+| 11   | Backtracking  | 1    | 3      | 1    | 5     |
+| 12   | Review        | 2    | 2      | 2    | 6     |
 
 **Total: 65 problems over 12 weeks**
 

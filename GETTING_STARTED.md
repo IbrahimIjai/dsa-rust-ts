@@ -41,24 +41,28 @@ algorithms-and-data-structures/
 ## ✅ What's Been Set Up
 
 ### 1. TypeScript/JavaScript Environment
+
 - ✅ package.json configured
-- ✅ tsconfig.json configured  
+- ✅ tsconfig.json configured
 - ✅ ts-node for running TypeScript directly
 - ✅ Dependencies installed
 
 ### 2. Rust Environment
+
 - ✅ Workspace Cargo.toml configured
 - ✅ Each problem is a separate binary package
 - ✅ Easy to run: `cargo run -p problem-name`
 - ✅ Tests included in each solution
 
 ### 3. Example Problems
+
 - ✅ Kadane's Algorithm (Maximum Subarray)
 - ✅ Two Sum
 - Both implemented in TypeScript and Rust
 - Both tested and working!
 
 ### 4. Documentation
+
 - ✅ Comprehensive README with learning path
 - ✅ Learning guide with weekly schedule
 - ✅ Quick reference for all commands
@@ -68,6 +72,7 @@ algorithms-and-data-structures/
 ## 🚀 Quick Commands
 
 ### Run TypeScript Examples
+
 ```bash
 # Kadane's Algorithm
 npx ts-node topics/arrays/kadanes-algorithm/solution.ts
@@ -80,6 +85,7 @@ npm run dev topics/arrays/kadanes-algorithm/solution.ts
 ```
 
 ### Run Rust Examples
+
 ```bash
 # Kadane's Algorithm
 cargo run -p kadanes-algorithm
@@ -94,10 +100,12 @@ cargo test --workspace
 
 ## 📝 Next Steps
 
-### 1. Start Learning! 
+### 1. Start Learning!
+
 Pick a problem from the learning path in README.md and start solving!
 
 ### 2. Create Your Progress Tracker
+
 ```bash
 # Create your personal progress file (ignored by git)
 touch MY_PROGRESS.md
@@ -106,12 +114,14 @@ touch MY_PROGRESS.md
 ### 3. Add Your First New Problem
 
 **Option A: Using the script (on Linux/Mac/Git Bash)**
+
 ```bash
 chmod +x new-problem.sh
 ./new-problem.sh arrays binary-search
 ```
 
 **Option B: Manual creation**
+
 - Create folder: `topics/arrays/binary-search/`
 - Copy TEMPLATE.md to the folder as README.md
 - Create solution.ts
@@ -121,6 +131,7 @@ chmod +x new-problem.sh
 ### 4. Customize for Your Journey
 
 Edit these files to make it yours:
+
 - `README.md` - Update the learning path with your goals
 - `MY_PROGRESS.md` - Track what you've learned
 - Add personal notes in each problem's README
@@ -128,22 +139,26 @@ Edit these files to make it yours:
 ## 🎯 Suggested First Week
 
 ### Day 1-2: Get Comfortable
+
 - ✅ Run both existing examples
 - ✅ Read through the code
 - ✅ Understand the structure
 - ✅ Modify the examples and re-run them
 
 ### Day 3-4: Arrays Basics
+
 - Implement: Best Time to Buy and Sell Stock
 - Practice: Running and testing in both languages
 - Learn: Basic array manipulation patterns
 
 ### Day 5-6: Arrays Intermediate
+
 - Implement: Product of Array Except Self
 - Focus: Multiple passes, prefix/suffix arrays
 - Compare: TypeScript vs Rust implementations
 
 ### Day 7: Review
+
 - Review all problems solved this week
 - Add comprehensive notes
 - Ensure all tests pass
@@ -151,17 +166,20 @@ Edit these files to make it yours:
 ## 💡 Pro Tips
 
 ### For TypeScript
+
 - Use `console.log()` liberally to debug
 - TypeScript's type system catches many errors
 - Use the debugger in VS Code for complex problems
 
 ### For Rust
+
 - Let the compiler guide you - read error messages carefully
 - Use `cargo check` for quick syntax validation
 - Use `println!("{:?}", var)` for debugging
 - Tests are your friend - write them as you code
 
 ### General
+
 - Solve in one language first, then port to the other
 - Compare approaches - learn language-specific idioms
 - Don't skip the README - documenting helps learning
@@ -170,18 +188,21 @@ Edit these files to make it yours:
 ## 🐛 Troubleshooting
 
 ### TypeScript not running?
+
 ```bash
 npm install
 npx ts-node --version
 ```
 
 ### Rust not compiling?
+
 ```bash
 cargo clean
 cargo build
 ```
 
 ### Package not found in Rust?
+
 - Check that the folder exists in `topics/`
 - Verify `Cargo.toml` exists in the problem's `rust/` folder
 - Run `cargo build` from project root
@@ -189,12 +210,14 @@ cargo build
 ## 📚 Learning Resources
 
 Already included:
+
 - ✅ Reference library in `resources/` (submodule)
 - ✅ Comprehensive learning guide
 - ✅ Quick reference for commands
 - ✅ Problem templates
 
 External resources:
+
 - LeetCode for more problems
 - NeetCode for video explanations
 - VisuAlgo for algorithm visualizations

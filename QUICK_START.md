@@ -3,6 +3,7 @@
 ## Running Code
 
 ### TypeScript/JavaScript
+
 ```bash
 # Install dependencies first
 npm install
@@ -16,6 +17,7 @@ node topics/arrays/kadanes-algorithm/solution.js
 ```
 
 ### Rust
+
 ```bash
 # Run a specific problem
 cargo run -p kadanes-algorithm
@@ -37,12 +39,15 @@ cargo test -- --nocapture
 ## Adding a New Problem
 
 ### Step 1: Create folder structure
+
 ```bash
 mkdir -p topics/<category>/<problem-name>/rust/src
 ```
 
 ### Step 2: Create README.md
+
 Copy from `TEMPLATE.md` or use this structure:
+
 - Problem statement
 - Examples
 - Approach explanation
@@ -50,19 +55,25 @@ Copy from `TEMPLATE.md` or use this structure:
 - Links to implementations
 
 ### Step 3: Create TypeScript solution
+
 File: `topics/<category>/<problem-name>/solution.ts`
+
 - Function implementation
 - Test cases
 - Example usage
 
 ### Step 4: Create Rust solution
+
 File: `topics/<category>/<problem-name>/rust/src/main.rs`
+
 - Function implementation
 - Main function with examples
 - Unit tests in `#[cfg(test)]` module
 
 ### Step 5: Create Cargo.toml
+
 File: `topics/<category>/<problem-name>/rust/Cargo.toml`
+
 ```toml
 [package]
 name = "problem-name"
@@ -75,11 +86,13 @@ path = "src/main.rs"
 ```
 
 ### Step 6: Update main README
+
 Add your problem to the learning path checklist.
 
 ## Common Commands
 
 ### Project Setup
+
 ```bash
 # Install Node dependencies
 npm install
@@ -90,6 +103,7 @@ cargo --version
 ```
 
 ### Development
+
 ```bash
 # Run TypeScript in watch mode (requires nodemon)
 npm install -g nodemon
@@ -103,6 +117,7 @@ cargo clippy --all
 ```
 
 ### Testing
+
 ```bash
 # TypeScript (if you set up Jest)
 npm test
@@ -127,6 +142,7 @@ cargo test -- --nocapture
 ## Tips & Tricks
 
 ### TypeScript
+
 ```bash
 # Run with specific Node version (using nvm)
 nvm use 20
@@ -140,6 +156,7 @@ node dist/topics/arrays/two-sum/solution.js
 ```
 
 ### Rust
+
 ```bash
 # Check if code compiles without building
 cargo check
@@ -163,6 +180,7 @@ cargo update
 ### Performance Testing
 
 **Rust:**
+
 ```bash
 # Run with release optimizations for accurate timing
 cargo run --release -p kadanes-algorithm
@@ -173,11 +191,12 @@ cargo criterion
 ```
 
 **TypeScript:**
+
 ```javascript
 // Use console.time in your code
-console.time('Algorithm');
+console.time("Algorithm");
 // ... your code
-console.timeEnd('Algorithm');
+console.timeEnd("Algorithm");
 ```
 
 ## Troubleshooting
@@ -185,11 +204,13 @@ console.timeEnd('Algorithm');
 ### TypeScript Issues
 
 **Cannot find module 'ts-node'**
+
 ```bash
 npm install ts-node typescript @types/node --save-dev
 ```
 
 **Type errors**
+
 ```bash
 # Check tsconfig.json is properly configured
 npx tsc --noEmit
@@ -198,6 +219,7 @@ npx tsc --noEmit
 ### Rust Issues
 
 **Package not found**
+
 ```bash
 # Make sure Cargo.toml includes the workspace member
 # Check that rust/Cargo.toml has the correct members path
@@ -206,6 +228,7 @@ cargo build
 ```
 
 **Compilation errors**
+
 ```bash
 # Get more detailed error messages
 cargo build --verbose
@@ -224,12 +247,15 @@ cargo fmt --check
 ## Environment Setup
 
 ### VS Code Extensions (Recommended)
+
 - **Rust**: rust-analyzer
 - **TypeScript**: ESLint, Prettier
 - **General**: GitLens, Error Lens
 
 ### Shell Aliases (Optional)
+
 Add to your `.bashrc` or `.zshrc`:
+
 ```bash
 # Quick run aliases
 alias tsrun='npm run dev'
@@ -238,6 +264,7 @@ alias rusttest='cargo test -p'
 ```
 
 Usage:
+
 ```bash
 tsrun topics/arrays/kadanes-algorithm/solution.ts
 rustrun kadanes-algorithm

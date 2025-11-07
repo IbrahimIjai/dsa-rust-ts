@@ -20,6 +20,7 @@ Explanation: [4,-1,2,1] has the largest sum = 6
 Kadane's algorithm uses dynamic programming to solve the maximum subarray problem in O(n) time.
 
 **Key Idea:**
+
 - At each position, we decide whether to extend the current subarray or start a new one
 - `current_sum = max(arr[i], current_sum + arr[i])`
 - Track the maximum sum seen so far
@@ -37,11 +38,13 @@ Kadane's algorithm uses dynamic programming to solve the maximum subarray proble
 ## How to Run
 
 ### JavaScript/TypeScript
+
 ```bash
 npm run dev topics/arrays/kadanes-algorithm/solution.js
 ```
 
 ### Rust
+
 ```bash
 cargo run -p kadanes-algorithm
 ```

@@ -20,9 +20,11 @@ Explanation: nums[0] + nums[1] = 2 + 7 = 9
 ## Approaches
 
 ### 1. Brute Force (O(n²))
+
 Check every pair of numbers
 
 ### 2. Hash Map (O(n))
+
 Use a hash map to store numbers we've seen and their indices
 
 ## Complexity
@@ -38,11 +40,13 @@ Use a hash map to store numbers we've seen and their indices
 ## How to Run
 
 ### JavaScript/TypeScript
+
 ```bash
 npm run dev topics/arrays/two-sum/solution.ts
 ```
 
 ### Rust
+
 ```bash
 cargo run -p two-sum
 ```

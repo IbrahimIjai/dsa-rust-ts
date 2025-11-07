@@ -1,5 +1,5 @@
 /// Kadane's Algorithm - Maximum Subarray Sum
-/// 
+///
 /// Find the contiguous subarray with the largest sum
 /// Time Complexity: O(n)
 /// Space Complexity: O(1)
@@ -15,7 +15,7 @@ fn kadanes_algorithm(arr: &[i32]) -> i32 {
     for &num in &arr[1..] {
         // Either extend the existing subarray or start a new one
         current_sum = num.max(current_sum + num);
-        
+
         // Update the maximum sum if current is larger
         max_sum = max_sum.max(current_sum);
     }

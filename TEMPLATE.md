@@ -30,14 +30,17 @@ Explanation: [explanation]
 ## Approach
 
 ### Intuition
+
 [Explain the key insight or idea]
 
 ### Algorithm
+
 1. [Step 1]
 2. [Step 2]
 3. [Step 3]
 
 ### Why This Works
+
 [Explain the correctness of the approach]
 
 ## Complexity Analysis
@@ -50,11 +53,13 @@ Explanation: [explanation]
 ## Alternative Approaches
 
 ### Brute Force
+
 - Time: O(?)
 - Space: O(?)
 - [Brief description]
 
 ### Optimized
+
 - Time: O(?)
 - Space: O(?)
 - [Brief description]
@@ -67,11 +72,13 @@ Explanation: [explanation]
 ## How to Run
 
 ### JavaScript/TypeScript
+
 ```bash
 npm run dev topics/[category]/[problem-name]/solution.ts
 ```
 
 ### Rust
+
 ```bash
 cargo run -p [problem-name]
 cargo test -p [problem-name]

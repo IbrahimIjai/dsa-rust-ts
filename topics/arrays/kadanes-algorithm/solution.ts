@@ -1,60 +1,64 @@
 /**
  * Kadane's Algorithm - Maximum Subarray Sum
- * 
+ *
  * Find the contiguous subarray with the largest sum
  * Time Complexity: O(n)
  * Space Complexity: O(1)
  */
 
 function kadanesAlgorithm(arr: number[]): number {
-    if (arr.length === 0) {
-        throw new Error("Array must not be empty");
-    }
+  if (arr.length === 0) {
+    throw new Error("Array must not be empty");
+  }
 
-    let maxSum = arr[0];
-    let currentSum = arr[0];
+  let maxSum = arr[0];
+  let currentSum = arr[0];
 
-    for (let i = 1; i < arr.length; i++) {
-        // Either extend the existing subarray or start a new one
-        currentSum = Math.max(arr[i], currentSum + arr[i]);
-        
-        // Update the maximum sum if current is larger
-        maxSum = Math.max(maxSum, currentSum);
-    }
+  for (let i = 1; i < arr.length; i++) {
+    // Either extend the existing subarray or start a new one
+    currentSum = Math.max(arr[i], currentSum + arr[i]);
 
-    return maxSum;
+    // Update the maximum sum if current is larger
+    maxSum = Math.max(maxSum, currentSum);
+  }
+
+  return maxSum;
 }
 
 /**
  * Extended version that also returns the subarray indices
  */
-function kadanesWithIndices(arr: number[]): { maxSum: number; start: number; end: number } {
-    if (arr.length === 0) {
-        throw new Error("Array must not be empty");
+function kadanesWithIndices(arr: number[]): {
+  maxSum: number;
+  start: number;
+  end: number;
+} {
+  if (arr.length === 0) {
+    throw new Error("Array must not be empty");
+  }
+
+  let maxSum = arr[0];
+  let currentSum = arr[0];
+  let start = 0;
+  let end = 0;
+  let tempStart = 0;
+
+  for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > currentSum + arr[i]) {
+      currentSum = arr[i];
+      tempStart = i;
+    } else {
+      currentSum = currentSum + arr[i];
     }
 
-    let maxSum = arr[0];
-    let currentSum = arr[0];
-    let start = 0;
-    let end = 0;
-    let tempStart = 0;
-
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] > currentSum + arr[i]) {
-            currentSum = arr[i];
-            tempStart = i;
-        } else {
-            currentSum = currentSum + arr[i];
-        }
-
-        if (currentSum > maxSum) {
-            maxSum = currentSum;
-            start = tempStart;
-            end = i;
-        }
+    if (currentSum > maxSum) {
+      maxSum = currentSum;
+      start = tempStart;
+      end = i;
     }
+  }
 
-    return { maxSum, start, end };
+  return { maxSum, start, end };
 }
 
 // ============ TESTING ============
