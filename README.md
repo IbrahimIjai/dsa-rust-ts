@@ -4,11 +4,10 @@ A comprehensive collection of **Data Structures and Algorithms** implementations
 
 ## 📚 Documentation
 
-- **[🎉 GETTING STARTED](./GETTING_STARTED.md)** - Start here! Complete setup guide
-- **[🗺️ ROADMAP](./ROADMAP.md)** - Visual learning path with progress tracking
-- **[🎓 LEARNING GUIDE](./LEARNING_GUIDE.md)** - Detailed weekly schedule & tips
-- **[🚀 QUICK START](./QUICK_START.md)** - Command reference & troubleshooting
-- **[📝 TEMPLATE](./TEMPLATE.md)** - Template for adding new problems
+- **[🎉 GETTING STARTED](./GETTING_STARTED.md)** - Setup verification & first steps
+- **[🗺️ ROADMAP](./ROADMAP.md)** - Learning path with checkboxes
+- **[🚀 QUICK START](./QUICK_START.md)** - Commands & troubleshooting
+- **[📊 VISUAL GUIDES](./resources/visual-guides/README.md)** - Diagrams & roadmap images
 
 ---
 

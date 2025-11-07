@@ -2,6 +2,13 @@
 
 Visual guide to your learning journey. Check off topics as you master them!
 
+## 📊 Visual Reference
+
+- [Data Structures Hierarchy](./resources/visual-guides/data-structures-hierarchy.png)
+- [20+ DSA Topics Guide](./resources/visual-guides/dsa-topics-roadmap.png)
+
+---
+
 ## 📊 Progress Overview
 
 ```
