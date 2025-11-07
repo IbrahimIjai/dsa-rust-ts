@@ -1,0 +1,8 @@
+[package]
+name = "kadanes-algorithm"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "kadanes-algorithm"
+path = "src/main.rs"
