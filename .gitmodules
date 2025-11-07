@@ -1,0 +1,3 @@
+[submodule "resources/algorithms-and-data-structures"]
+	path = resources/algorithms-and-data-structures
+	url = https://github.com/matthewlilley/algorithms-and-data-structures
