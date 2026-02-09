@@ -212,15 +212,23 @@ pub fn expense_loop() {
             }
         } else if parsed_cmd == "q" {
             println!("\n========================");
-            println!("Program ended... File saved");
-            match expenses.save_to_file("expenses.txt") {
-                Ok(_) => println!("File saved: expenses.txt"),
-                Err(e) => println!(" Error saving file: {}", e),
-            }
-            println!("Program ended...");
-            println!("========================\n");
+            println!("Are you sure you want to quit this program? reply with y/n");
+            let mut quit_prog_approval = String::new();
+            io::stdin()
+                .read_line(&mut quit_prog_approval)
+                .expect("Expected y/n");
 
-            break;
+            if quit_prog_approval.trim() == "y" {
+                println!("Program ended! File saved!");
+                match expenses.save_to_file("expenses.txt") {
+                    Ok(_) => println!("File saved: expenses.txt"),
+                    Err(e) => println!(" Error saving file: {}", e),
+                }
+                println!("Program ended...");
+                println!("========================\n");
+
+                break;
+            }
         }
 
         command.clear();
