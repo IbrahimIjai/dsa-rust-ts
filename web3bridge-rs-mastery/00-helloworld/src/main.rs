@@ -1,16 +1,10 @@
+fn main() {
+    let strrrr = String::from("value");
+    println!("lent, {}", strrrr.len());
 
-
-
-enum SpreadsheetCell {
-    Int(i32),
-    Float(f64),
-    Text(String),
 }
 
-fn main() {
-    let row = vec![
-        SpreadsheetCell::Int(3),
-        SpreadsheetCell::Text(String::from("blue")),
-        SpreadsheetCell::Float(10.12),
-    ];
+
+fn compare_str (str1:String, str2:String){
+    
 }
