@@ -3,8 +3,9 @@ use std::sync::Arc;
 use axum::{
     Json, Router,
     body::Body,
-    extract::State,
-    http::{Response, StatusCode},
+    extract::{Request, State},
+    http::{Response, StatusCode, response},
+    middleware::{Next, from_fn},
     response::IntoResponse,
     routing::get,
 };
@@ -29,7 +30,15 @@ fn app() -> Router {
         .route("/", get(|| async { "Hello, World!" }))
         .route("/health", get(hello_yoo))
         .route("/hello", get(hello_handler))
-        .with_state(shared_states).fallback(not_found)
+        .with_state(shared_states)
+        .fallback(not_found)
+        .layer(from_fn(mid_ware))
+}
+
+async fn mid_ware(req: Request, next: Next) -> impl IntoResponse {
+    println!("This is a middleware");
+    let response = next.run(req).await;
+    response
 }
 
 async fn not_found() -> impl IntoResponse {
@@ -71,7 +80,6 @@ async fn not_found() -> impl IntoResponse {
 //     //method 3
 //     (StatusCode::ACCEPTED, "helloooo")
 // }
-
 
 //SHARED STATE LEARN
 
